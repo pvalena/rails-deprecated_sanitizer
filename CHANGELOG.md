@@ -1,3 +1,7 @@
+## 1.0.4
+
+* Rails 6 support https://github.com/rails/rails-deprecated_sanitizer/pull/6
+
 ## 1.0.3
 
 * Improved support for Rails 4.2.0.beta2 and above.
