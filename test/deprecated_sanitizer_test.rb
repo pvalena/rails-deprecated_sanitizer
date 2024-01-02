@@ -12,7 +12,7 @@ class DeprecatedSanitizerTest < ActiveSupport::TestCase
   end
 
   test 'Action View sanitizer vendor returns constant from HTML module' do
-    assert_equal HTML::LinkSanitizer, sanitize_helper.sanitizer_vendor.link_sanitizer
+    assert_equal Rails::HTML4::LinkSanitizer, sanitize_helper.sanitizer_vendor.link_sanitizer
   end
 
   test 'setting allowed tags modifies HTML::WhiteListSanitizers allowed tags' do
